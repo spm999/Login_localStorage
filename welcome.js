@@ -13,8 +13,6 @@ document.addEventListener('DOMContentLoaded', function () {
 function checkLoginStatus() {
     const isLoggedIn = localStorage.getItem('isLoggedIn');
     return isLoggedIn === 'true';
-    // const username = localStorage.getItem('username');
-    // return !!username;
 }
 
 function logout() {
