@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Authentication</title>
+</head>
+<body>
+  <h1>Simple Authentication</h1>
+
+  <div id="signin-form">
+    <h2>Sign In</h2>
+    <form id="signin" onsubmit="handleSignin(event)">
+      <label for="signinUsername">Username:</label>
+      <input type="text" id="signinUsername" required>
+      <label for="signinPassword">Password:</label>
+      <input type="password" id="signinPassword" required>
+      <button type="submit">Sign In</button>
+    </form>
+  </div>
+
+  <script src="signin.js"></script>
+</body>
+</html>
